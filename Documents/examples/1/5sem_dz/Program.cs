@@ -127,7 +127,7 @@ void FillArray38(double[] numbers)
                 maxNumber = numbers[i];
         }    
     }    
-    Console.WriteLine($"Миниальное число {minNumber}, максимальное {maxNumber}");
+    Console.WriteLine($"Максимальное {maxNumber}, минимальное  {minNumber},  и разница {maxNumber - minNumber}" );
 }
 
 void PrintArray38(double[] numbers)
