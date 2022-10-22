@@ -64,12 +64,8 @@ Ackerman (numberM, numberN);
 int Ackerman (int numberM, int numberN)
 {
     if (numberM == 0) return  numberN += 1;
-
-    if (numberM != 0 && numberN == 0) return Ackerman(numberM - 1, 1);
-
-    
+    if (numberM != 0 && numberN == 0) return Ackerman(numberM - 1, 1); 
     if (numberM > 0 && numberN > 0) return Ackerman(numberM - 1, Ackerman(numberM, numberN - 1));
-    
     return Ackerman(numberM, numberN);
 }
 
