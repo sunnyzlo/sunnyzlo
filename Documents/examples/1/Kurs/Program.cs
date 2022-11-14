@@ -29,23 +29,14 @@ void Zadacha()
         array[i] = Console.ReadLine();
     }
     PrintArray(array);
-    PrintArray1(array);
 }
 
-// Печатать массив
-void PrintArray(string[] array)
-{
-    for (int i = 0; i < array.Length; i++)
-    {
-        Console.Write(array[i] + " ");
-    }
-    Console.WriteLine();
-}
 
 //Заполняем и печатаем новый массив
-void PrintArray1(string[] array)
+void PrintArray(string[] array)
 {
-    Console.WriteLine("Вывод массива: ");
+    Console.WriteLine();
+    Console.WriteLine("Выбрали вот эти: ");
     Random random = new Random();
     for (int i = 0; i < array.Length; i++)
     {
@@ -57,3 +48,5 @@ void PrintArray1(string[] array)
 }
 
 }
+
+Zadacha();
